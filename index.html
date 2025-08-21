@@ -15,6 +15,12 @@
   </header>
   <nav id="breadcrumbs"></nav>
   <main id="content"></main>
+
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
 </body>
 </html>

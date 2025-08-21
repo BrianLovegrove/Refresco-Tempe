@@ -1,8 +1,8 @@
 {
   "name": "Refresco Tempe",
   "short_name": "Refresco",
-  "start_url": ".",
-  "scope": ".",
+  "start_url": "./?source=pwa",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
