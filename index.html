@@ -7,8 +7,15 @@
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="stylesheet" href="styles.css" />
+  <!-- Auth gate loads BEFORE anything else -->
+  <script src="auth.js"></script>
+  <style>
+    /* Hide app until authenticated */
+    body.lock { visibility: hidden; }
+    .auth-denied { font-family: system-ui, Arial, sans-serif; padding: 40px; }
+  </style>
 </head>
-<body>
+<body class="lock">
   <header>
     <button id="backBtn" aria-label="Back" title="Back">← Back</button>
     <h1>Refresco Tempe</h1>
@@ -18,7 +25,8 @@
 
   <script src="app.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
+    // Register SW only after auth succeeded
+    if (sessionStorage.getItem('auth_ok') === '1' && 'serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js');
     }
   </script>
