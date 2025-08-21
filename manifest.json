@@ -1,9 +1,20 @@
 {
-  "name": "Factory FlowHub",
-  "short_name": "FlowHub",
-  "start_url": ".",
+  "name": "Refresco Tempe",
+  "short_name": "Refresco",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "description": "Procedures and troubleshooting hub.",
-  "icons": []
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }

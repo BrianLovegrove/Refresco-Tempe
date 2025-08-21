@@ -1,0 +1,164 @@
+{
+  "top": [
+    {
+      "name": "Line 2",
+      "machines": [
+        {
+          "name": "Depal",
+          "path": "/docs/line2/depal/",
+          "docs": []
+        },
+        {
+          "name": "Empty Can Conveyors",
+          "path": "/docs/line2/empty_can_conveyors/",
+          "docs": []
+        },
+        {
+          "name": "Filler",
+          "path": "/docs/line2/filler/",
+          "docs": []
+        },
+        {
+          "name": "Seamer",
+          "path": "/docs/line2/seamer/",
+          "docs": []
+        },
+        {
+          "name": "Full Can Line",
+          "path": "/docs/line2/full_can_line/",
+          "docs": []
+        },
+        {
+          "name": "Variopack",
+          "path": "/docs/line2/variopack/",
+          "docs": []
+        },
+        {
+          "name": "Full Case Conveyor",
+          "path": "/docs/line2/full_case_conveyor/",
+          "docs": []
+        },
+        {
+          "name": "Palletizer",
+          "path": "/docs/line2/palletizer/",
+          "docs": []
+        }
+      ]
+    },
+    {
+      "name": "Line 3",
+      "machines": [
+        {
+          "name": "Depal",
+          "path": "/docs/line3/depal/",
+          "docs": []
+        },
+        {
+          "name": "Empty Can Conveyors",
+          "path": "/docs/line3/empty_can_conveyors/",
+          "docs": []
+        },
+        {
+          "name": "Filler",
+          "path": "/docs/line3/filler/",
+          "docs": []
+        },
+        {
+          "name": "Seamer",
+          "path": "/docs/line3/seamer/",
+          "docs": []
+        },
+        {
+          "name": "Full Can Line",
+          "path": "/docs/line3/full_can_line/",
+          "docs": []
+        },
+        {
+          "name": "Douglas Packer",
+          "path": "/docs/line3/douglas_packer/",
+          "docs": []
+        },
+        {
+          "name": "Full Case Conveyor",
+          "path": "/docs/line3/full_case_conveyor/",
+          "docs": []
+        },
+        {
+          "name": "Palletizer",
+          "path": "/docs/line3/palletizer/",
+          "docs": []
+        }
+      ]
+    },
+    {
+      "name": "Line 4",
+      "machines": [
+        {
+          "name": "Depal",
+          "path": "/docs/line4/depal/",
+          "docs": []
+        },
+        {
+          "name": "Empty Can Conveyors",
+          "path": "/docs/line4/empty_can_conveyors/",
+          "docs": []
+        },
+        {
+          "name": "Filler",
+          "path": "/docs/line4/filler/",
+          "docs": []
+        },
+        {
+          "name": "Seamer",
+          "path": "/docs/line4/seamer/",
+          "docs": []
+        },
+        {
+          "name": "Full Can Line",
+          "path": "/docs/line4/full_can_line/",
+          "docs": []
+        },
+        {
+          "name": "Douglas Packer",
+          "path": "/docs/line4/douglas_packer/",
+          "docs": []
+        },
+        {
+          "name": "Full Case Conveyor",
+          "path": "/docs/line4/full_case_conveyor/",
+          "docs": []
+        },
+        {
+          "name": "Palletizer",
+          "path": "/docs/line4/palletizer/",
+          "docs": []
+        }
+      ]
+    },
+    {
+      "name": "Steam Generator",
+      "path": "/docs/steam_generator/",
+      "docs": []
+    },
+    {
+      "name": "Batching",
+      "path": "/docs/batching/",
+      "docs": []
+    },
+    {
+      "name": "VFD",
+      "path": "/docs/vfd/",
+      "docs": []
+    },
+    {
+      "name": "Can Crusher",
+      "path": "/docs/can_crusher/",
+      "docs": []
+    },
+    {
+      "name": "RO System",
+      "path": "/docs/ro_system/",
+      "docs": []
+    }
+  ]
+}
