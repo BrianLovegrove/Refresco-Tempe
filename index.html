@@ -7,28 +7,53 @@
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="stylesheet" href="styles.css" />
-  <!-- Auth gate loads BEFORE anything else -->
-  <script src="auth.js"></script>
-  <style>
-    /* Hide app until authenticated */
-    body.lock { visibility: hidden; }
-    .auth-denied { font-family: system-ui, Arial, sans-serif; padding: 40px; }
-  </style>
+
+    <style>
+      body{background:#fff;color:#111;margin:0;font-family:system-ui, Arial, sans-serif}
+      header{padding:12px 16px;font-weight:700;border-bottom:1px solid #ddd}
+      .container{padding:16px}
+      #loginOverlay{position:fixed;inset:0;background:#f6f7f9;display:flex;align-items:center;justify-content:center;z-index:9999}
+      .card{background:#fff;border:1px solid #ddd;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,.08);padding:24px;max-width:360px;width:92%}
+      .card h2{margin:0 0 12px;font-size:20px}
+      .field{margin:12px 0}
+      .field label{display:block;font-size:12px;margin-bottom:6px;color:#333}
+      .field input{width:100%;padding:10px 12px;border:1px solid #bbb;border-radius:10px;font-size:14px}
+      .btn{display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:10px;background:#111;color:#fff;font-weight:700;cursor:pointer}
+      .error{color:#c01212;min-height:20px;font-size:12px;margin-top:6px}
+      #content .list{display:flex;flex-direction:column;gap:10px}
+      #content .item{display:block;text-align:left;border:2px solid #000;border-radius:14px;padding:14px 16px;background:#fff;font-weight:800}
+      #breadcrumbs{padding:8px 0 16px;color:#444;font-size:14px}
+      #breadcrumbs a{color:#111;text-decoration:underline}
+      #backBtn{margin-bottom:12px}
+      .sectionTitle{font-weight:800;margin:16px 0 8px}
+      .empty{color:#666;font-size:14px}
+    </style>
+    
+  <link rel='manifest' href='manifest.webmanifest'>
 </head>
-<body class="lock">
+<body>
+      <div id="loginOverlay">
+        <div class="card">
+          <h2>Refresco Tempe Login</h2>
+          <div class="field"><label>Username</label><input id="u" type="text" autocomplete="username"></div>
+          <div class="field"><label>Password</label><input id="p" type="password" autocomplete="current-password"></div>
+          <div class="error" id="err"></div>
+          <button class="btn" id="loginBtn">Sign In</button>
+        </div>
+      </div>
+      <header id="appHeader" style="display:none">Refresco Tempe</header>
+      <div class="container" id="appMain" style="display:none">
+        <div id="breadcrumbs"></div>
+        <button id="backBtn" class="item" style="display:none;width:auto;max-width:200px">Back</button>
+        <div id="content"></div>
+      </div>
+    
   <header>
     <button id="backBtn" aria-label="Back" title="Back">← Back</button>
     <h1>Refresco Tempe</h1>
   </header>
   <nav id="breadcrumbs"></nav>
   <main id="content"></main>
-
   <script src="app.js"></script>
-  <script>
-    // Register SW only after auth succeeded
-    if (sessionStorage.getItem('auth_ok') === '1' && 'serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
-    }
-  </script>
 </body>
 </html>

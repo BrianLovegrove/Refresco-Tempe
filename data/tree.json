@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "Refresco Tempe",
   "children": [
     {
       "name": "Line 2",
@@ -8,32 +8,25 @@
           "name": "Depal",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/depal/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/depal/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/depal/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/depal/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/depal/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/depal/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/depal/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -41,32 +34,25 @@
           "name": "Empty Can Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/empty_can_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/empty_can_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/empty_can_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/empty_can_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/empty_can_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/empty_can_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/empty_can_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -74,32 +60,25 @@
           "name": "Filler",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/filler/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/filler/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/filler/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/filler/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/filler/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/filler/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/filler/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -107,32 +86,25 @@
           "name": "Pasteurizer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/pasteurizer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/pasteurizer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/pasteurizer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/pasteurizer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/pasteurizer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/pasteurizer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/pasteurizer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -140,32 +112,25 @@
           "name": "Full Can Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/full_can_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/full_can_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/full_can_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/full_can_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/full_can_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/full_can_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/full_can_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -173,32 +138,25 @@
           "name": "Variopack",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/variopack/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/variopack/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/variopack/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/variopack/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/variopack/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/variopack/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/variopack/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -206,32 +164,25 @@
           "name": "Full Case Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/full_case_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/full_case_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/full_case_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/full_case_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/full_case_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/full_case_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/full_case_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -239,32 +190,25 @@
           "name": "Palletizer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/palletizer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/palletizer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/palletizer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/palletizer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/palletizer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/palletizer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/palletizer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -272,32 +216,25 @@
           "name": "Full Pallet Conveyor / Wrapper",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line2/full_pallet_conveyor_wrapper/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         }
@@ -310,32 +247,25 @@
           "name": "Depal",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/depal/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/depal/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/depal/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/depal/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/depal/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/depal/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/depal/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -343,32 +273,25 @@
           "name": "Empty Can Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/empty_can_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/empty_can_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/empty_can_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/empty_can_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/empty_can_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/empty_can_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/empty_can_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -376,32 +299,25 @@
           "name": "Filler",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/filler/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/filler/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/filler/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/filler/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/filler/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/filler/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/filler/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -409,32 +325,25 @@
           "name": "Pasteurizer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/pasteurizer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/pasteurizer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/pasteurizer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/pasteurizer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/pasteurizer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/pasteurizer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/pasteurizer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -442,32 +351,25 @@
           "name": "Full Can Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/full_can_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/full_can_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/full_can_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/full_can_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/full_can_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/full_can_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/full_can_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -475,32 +377,25 @@
           "name": "Douglas Packer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/douglas_packer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/douglas_packer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/douglas_packer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/douglas_packer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/douglas_packer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/douglas_packer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/douglas_packer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -508,32 +403,25 @@
           "name": "Full Case Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/full_case_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/full_case_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/full_case_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/full_case_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/full_case_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/full_case_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/full_case_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -541,32 +429,25 @@
           "name": "Palletizer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/palletizer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/palletizer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/palletizer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/palletizer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/palletizer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/palletizer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/palletizer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -574,32 +455,25 @@
           "name": "Full Pallet Conveyor / Wrapper",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line3/full_pallet_conveyor_wrapper/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         }
@@ -612,32 +486,25 @@
           "name": "Depal",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/depal/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/depal/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/depal/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/depal/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/depal/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/depal/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/depal/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -645,32 +512,25 @@
           "name": "Empty Can Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/empty_can_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/empty_can_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/empty_can_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/empty_can_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/empty_can_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/empty_can_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/empty_can_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -678,32 +538,25 @@
           "name": "Filler",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/filler/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/filler/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/filler/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/filler/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/filler/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/filler/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/filler/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -711,32 +564,25 @@
           "name": "Pasteurizer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/pasteurizer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/pasteurizer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/pasteurizer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/pasteurizer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/pasteurizer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/pasteurizer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/pasteurizer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -744,32 +590,25 @@
           "name": "Full Can Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/full_can_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/full_can_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/full_can_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/full_can_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/full_can_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/full_can_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/full_can_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -777,32 +616,25 @@
           "name": "Douglas Packer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/douglas_packer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/douglas_packer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/douglas_packer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/douglas_packer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/douglas_packer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/douglas_packer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/douglas_packer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -810,32 +642,25 @@
           "name": "Full Case Line",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/full_case_line/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/full_case_line/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/full_case_line/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/full_case_line/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/full_case_line/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/full_case_line/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/full_case_line/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -843,32 +668,25 @@
           "name": "Palletizer",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/palletizer/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/palletizer/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/palletizer/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/palletizer/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/palletizer/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/palletizer/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/palletizer/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         },
@@ -876,32 +694,25 @@
           "name": "Full Pallet Conveyor / Wrapper",
           "children": [
             {
-              "name": "Electrical Schematics",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/electrical_schematics/"
+              "name": "Electrical Schematics"
             },
             {
-              "name": "Machine Manual",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/machine_manual/"
+              "name": "Machine Manual"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "PM Procedures",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/pm_procedures/"
+              "name": "PM Procedures"
             },
             {
-              "name": "Recipes",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/recipes/"
+              "name": "Recipes"
             },
             {
-              "name": "Adjustment Guide",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/adjustment_guide/"
+              "name": "Adjustment Guide"
             },
             {
-              "name": "Mechanic Notes",
-              "path": "docs/line4/full_pallet_conveyor_wrapper/mechanic_notes/"
+              "name": "Mechanic Notes"
             }
           ]
         }
@@ -911,32 +722,25 @@
       "name": "Steam Generator",
       "children": [
         {
-          "name": "Electrical Schematics",
-          "path": "docs/steam_generator/electrical_schematics/"
+          "name": "Electrical Schematics"
         },
         {
-          "name": "Machine Manual",
-          "path": "docs/steam_generator/machine_manual/"
+          "name": "Machine Manual"
         },
         {
-          "name": "Troubleshooting",
-          "path": "docs/steam_generator/troubleshooting/"
+          "name": "Troubleshooting"
         },
         {
-          "name": "PM Procedures",
-          "path": "docs/steam_generator/pm_procedures/"
+          "name": "PM Procedures"
         },
         {
-          "name": "Recipes",
-          "path": "docs/steam_generator/recipes/"
+          "name": "Recipes"
         },
         {
-          "name": "Adjustment Guide",
-          "path": "docs/steam_generator/adjustment_guide/"
+          "name": "Adjustment Guide"
         },
         {
-          "name": "Mechanic Notes",
-          "path": "docs/steam_generator/mechanic_notes/"
+          "name": "Mechanic Notes"
         }
       ]
     },
@@ -944,32 +748,25 @@
       "name": "Batching",
       "children": [
         {
-          "name": "Electrical Schematics",
-          "path": "docs/batching/electrical_schematics/"
+          "name": "Electrical Schematics"
         },
         {
-          "name": "Machine Manual",
-          "path": "docs/batching/machine_manual/"
+          "name": "Machine Manual"
         },
         {
-          "name": "Troubleshooting",
-          "path": "docs/batching/troubleshooting/"
+          "name": "Troubleshooting"
         },
         {
-          "name": "PM Procedures",
-          "path": "docs/batching/pm_procedures/"
+          "name": "PM Procedures"
         },
         {
-          "name": "Recipes",
-          "path": "docs/batching/recipes/"
+          "name": "Recipes"
         },
         {
-          "name": "Adjustment Guide",
-          "path": "docs/batching/adjustment_guide/"
+          "name": "Adjustment Guide"
         },
         {
-          "name": "Mechanic Notes",
-          "path": "docs/batching/mechanic_notes/"
+          "name": "Mechanic Notes"
         }
       ]
     },
@@ -977,32 +774,25 @@
       "name": "Can Crusher",
       "children": [
         {
-          "name": "Electrical Schematics",
-          "path": "docs/can_crusher/electrical_schematics/"
+          "name": "Electrical Schematics"
         },
         {
-          "name": "Machine Manual",
-          "path": "docs/can_crusher/machine_manual/"
+          "name": "Machine Manual"
         },
         {
-          "name": "Troubleshooting",
-          "path": "docs/can_crusher/troubleshooting/"
+          "name": "Troubleshooting"
         },
         {
-          "name": "PM Procedures",
-          "path": "docs/can_crusher/pm_procedures/"
+          "name": "PM Procedures"
         },
         {
-          "name": "Recipes",
-          "path": "docs/can_crusher/recipes/"
+          "name": "Recipes"
         },
         {
-          "name": "Adjustment Guide",
-          "path": "docs/can_crusher/adjustment_guide/"
+          "name": "Adjustment Guide"
         },
         {
-          "name": "Mechanic Notes",
-          "path": "docs/can_crusher/mechanic_notes/"
+          "name": "Mechanic Notes"
         }
       ]
     },
@@ -1010,32 +800,25 @@
       "name": "RO System",
       "children": [
         {
-          "name": "Electrical Schematics",
-          "path": "docs/ro_system/electrical_schematics/"
+          "name": "Electrical Schematics"
         },
         {
-          "name": "Machine Manual",
-          "path": "docs/ro_system/machine_manual/"
+          "name": "Machine Manual"
         },
         {
-          "name": "Troubleshooting",
-          "path": "docs/ro_system/troubleshooting/"
+          "name": "Troubleshooting"
         },
         {
-          "name": "PM Procedures",
-          "path": "docs/ro_system/pm_procedures/"
+          "name": "PM Procedures"
         },
         {
-          "name": "Recipes",
-          "path": "docs/ro_system/recipes/"
+          "name": "Recipes"
         },
         {
-          "name": "Adjustment Guide",
-          "path": "docs/ro_system/adjustment_guide/"
+          "name": "Adjustment Guide"
         },
         {
-          "name": "Mechanic Notes",
-          "path": "docs/ro_system/mechanic_notes/"
+          "name": "Mechanic Notes"
         }
       ]
     },
@@ -1046,20 +829,16 @@
           "name": "Powerflex 40",
           "children": [
             {
-              "name": "Manual",
-              "path": "docs/vfd/powerflex_40/manual/"
+              "name": "Manual"
             },
             {
-              "name": "Programming Guide",
-              "path": "docs/vfd/powerflex_40/programming_guide/"
+              "name": "Programming Guide"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/vfd/powerflex_40/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "Fault Codes",
-              "path": "docs/vfd/powerflex_40/fault_codes/"
+              "name": "Fault Codes"
             }
           ]
         },
@@ -1067,20 +846,16 @@
           "name": "Powerflex 525",
           "children": [
             {
-              "name": "Manual",
-              "path": "docs/vfd/powerflex_525/manual/"
+              "name": "Manual"
             },
             {
-              "name": "Programming Guide",
-              "path": "docs/vfd/powerflex_525/programming_guide/"
+              "name": "Programming Guide"
             },
             {
-              "name": "Troubleshooting",
-              "path": "docs/vfd/powerflex_525/troubleshooting/"
+              "name": "Troubleshooting"
             },
             {
-              "name": "Fault Codes",
-              "path": "docs/vfd/powerflex_525/fault_codes/"
+              "name": "Fault Codes"
             }
           ]
         }
