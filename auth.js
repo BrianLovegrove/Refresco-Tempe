@@ -1,11 +1,23 @@
 (function(){
   const USERNAME = "MECH";
   const PASSWORD = "1234";
-  // If already authorized in this session, just reveal
+
+  function unlock(){
+    if (document.body) {
+      document.body.classList.remove('lock');
+    } else {
+      document.addEventListener('DOMContentLoaded', () => {
+        document.body && document.body.classList.remove('lock');
+      });
+    }
+  }
+
+  // If already authorized in this session, just reveal and exit
   if (sessionStorage.getItem('auth_ok') === '1') {
-    document.body && document.body.classList.remove('lock');
+    unlock();
     return;
   }
+
   // Prompt up to 3 times
   let ok = false;
   for (let i = 0; i < 3; i++) {
@@ -14,9 +26,10 @@
     if (u === USERNAME && p === PASSWORD) { ok = true; break; }
     alert("Incorrect credentials. Try again.");
   }
+
   if (ok) {
     sessionStorage.setItem('auth_ok', '1');
-    document.body && document.body.classList.remove('lock');
+    unlock();
   } else {
     // Deny access and stop rendering
     document.open();
