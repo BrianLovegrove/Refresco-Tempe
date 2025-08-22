@@ -10,6 +10,8 @@ const SESSION_KEY='refresco_auth_ok';
 let tree=null;
 const stack=[];
 const $overlay=document.getElementById('loginOverlay');
+const $loadingOverlay=document.getElementById('loadingOverlay');
+const $loadingText=document.getElementById('loadingText');
 const $loginBtn=document.getElementById('loginBtn');
 const $u=document.getElementById('u');
 const $p=document.getElementById('p');
@@ -21,10 +23,43 @@ const $bc=document.getElementById('breadcrumbs');
 const $back=document.getElementById('backBtn');
 
 function authed(){ return sessionStorage.getItem(SESSION_KEY)==='1'; }
-function showApp(){ $overlay.style.display='none'; $header.style.display='block'; $main.style.display='block'; initApp(); }
-function requireLogin(){ $overlay.style.display='flex'; $header.style.display='none'; $main.style.display='none'; }
+function showApp(){ $overlay.style.display='none'; $loadingOverlay.style.display='none'; $header.style.display='block'; $main.style.display='block'; initApp(); }
+function requireLogin(){ $overlay.style.display='flex'; $loadingOverlay.style.display='none'; $header.style.display='none'; $main.style.display='none'; }
+
+async function showLoadingAnimation() {
+  $overlay.style.display='none';
+  $loadingOverlay.style.display='flex';
+  
+  // Phase 1: "Thinking..." for 1.5 seconds
+  await showLoadingPhase('Thinking', 1500);
+  
+  // Phase 2: "What Would Herman Do?" for 1.5 seconds  
+  await showLoadingPhase('What Would Herman Do?', 1500);
+  
+  // Phase 3: "Enjoy" for 1 second
+  await showLoadingPhase('Enjoy', 1000);
+  
+  // Show main app
+  showApp();
+}
+
+async function showLoadingPhase(text, duration) {
+  return new Promise(resolve => {
+    // Fade out current text
+    $loadingText.classList.remove('show');
+    
+    setTimeout(() => {
+      // Update text and fade in
+      $loadingText.innerHTML = text + '<span class="dots"></span>';
+      $loadingText.classList.add('show');
+      
+      // Wait for the specified duration then resolve
+      setTimeout(resolve, duration);
+    }, 300); // Wait for fade out
+  });
+}
 $loginBtn.onclick=()=>{ const uu=($u.value||'').trim(); const pp=($p.value||'').trim();
-  if(uu===USERNAME && pp===PASSWORD){ sessionStorage.setItem(SESSION_KEY,'1'); showApp(); } else { $err.textContent='Invalid credentials'; } };
+  if(uu===USERNAME && pp===PASSWORD){ sessionStorage.setItem(SESSION_KEY,'1'); showLoadingAnimation(); } else { $err.textContent='Invalid credentials'; } };
 window.addEventListener('DOMContentLoaded', ()=>{ if(authed()) showApp(); else requireLogin(); });
 
 async function initApp(){
