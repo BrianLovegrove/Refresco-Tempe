@@ -55,7 +55,7 @@ function render(){
     const list=document.createElement('div'); list.className='list'; $c.appendChild(list);
     listFiles(repoPath).then(items=>{
       if(!items.length){ const p=document.createElement('p'); p.className='empty'; p.textContent='No files yet. Upload to '+repoPath+' in GitHub.'; $c.appendChild(p); return; }
-      items.forEach(it=>{ if(it.type==='file'){ const a=document.createElement('a'); a.className='item'; a.href='#'; a.onclick=(e)=>{ e.preventDefault(); openFile(rawUrl(repoPath+it.name); a.textContent=prettyName(it.name); list.appendChild(a); } });
+      items.forEach(it=>{ if(it.type==='file'){ const a=document.createElement('a'); a.className='item'; a.href='#'; a.onclick=(e)=>{ e.preventDefault(); openFile(rawUrl(repoPath+it.name), it.name); }; a.textContent=prettyName(it.name); list.appendChild(a); } });
     }).catch(err=>{ const p=document.createElement('p'); p.className='empty'; p.textContent='Folder not found yet: '+repoPath; $c.appendChild(p); console.error(err); });
   }
 }
