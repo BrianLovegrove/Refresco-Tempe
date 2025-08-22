@@ -67,8 +67,51 @@ function renderCrumbs(){ const parts=['<a href="#" data-i="-1">Home</a>']; let n
 function renderBack(){ if(stack.length===0){ $back.style.display='none'; return; } $back.style.display='inline-block'; $back.onclick=()=>{ stack.pop(); render(); }; }
 
 function apiUrl(path){ const clean=path.replace(/^\/+|\/+$/g,''); return `https://api.github.com/repos/${OWNER}/${REPO}/contents/${encodeURIComponent(clean)}?ref=${encodeURIComponent(BRANCH)}`; }
-function rawUrl(path){ const clean=path.replace(/^\/+/, ''); return `https://raw.githubusercontent.com/${OWNER}/${REPO}/${encodeURIComponent(BRANCH)}/${clean}`; }
-async function listFiles(path){ const res=await fetch(apiUrl(path), { headers:{ 'Accept':'application/vnd.github+json' } }); if(!res.ok) throw new Error('GitHub API '+res.status); const items=await res.json(); return Array.isArray(items)?items:[]; }
+function rawUrl(path){ 
+  const clean=path.replace(/^\/+/, ''); 
+  // For local development, try local path first
+  if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+    return clean; // Use relative path for local files
+  }
+  return `https://raw.githubusercontent.com/${OWNER}/${REPO}/${encodeURIComponent(BRANCH)}/${clean}`; 
+}
+async function listFiles(path){ 
+  try {
+    // Try GitHub API first
+    const res=await fetch(apiUrl(path), { headers:{ 'Accept':'application/vnd.github+json' } }); 
+    if(!res.ok) throw new Error('GitHub API '+res.status); 
+    const items=await res.json(); 
+    return Array.isArray(items)?items:[];
+  } catch (error) {
+    // Fallback to check for known files when GitHub API fails
+    const knownFiles = [
+      'sample_schematic.txt',
+      'fault_codes_reference.txt',
+      'manual.pdf',
+      'troubleshooting_guide.txt',
+      'procedures.txt',
+      'adjustment_guide.txt',
+      'pm_schedule.txt',
+      'maintenance_log.txt',
+      'wiring_diagram.pdf',
+      'parts_list.txt'
+    ];
+    
+    const foundFiles = [];
+    for (const file of knownFiles) {
+      try {
+        const fileRes = await fetch(path + file, { method: 'HEAD' });
+        if (fileRes.ok) {
+          foundFiles.push({ name: file, type: 'file' });
+        }
+      } catch (e) {
+        // File doesn't exist, continue silently
+      }
+    }
+    
+    return foundFiles;
+  }
+}
 function prettyName(filename){ const noExt=filename.replace(/\.[^.]+$/,''); return noExt.replace(/[_-]+/g,' ').replace(/\s+/g,' ').replace(/\b\w/g,c=>c.toUpperCase()); }
 
 
