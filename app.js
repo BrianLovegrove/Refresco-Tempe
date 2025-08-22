@@ -1,5 +1,5 @@
 // Mechanic's Best Friend - full login gate + auto file listing
-const OWNER='brianlovegrove';
+const OWNER='BrianLovegrove';
 const REPO='Refresco-Tempe';
 const BRANCH='main';
 
