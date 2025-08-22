@@ -19,15 +19,15 @@
       }
       
       header{
-        padding: 18px 24px;
+        padding: 24px 32px;
         font-weight: 800;
         background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
         color: #ffffff;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        font-size: 28px;
+        font-size: 42px;
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 20px;
       }
       
       .container{padding: 26px}
@@ -48,7 +48,7 @@
         border-radius: 20px;
         box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         padding: 32px;
-        max-width: 450px;
+        max-width: 550px;
         width: 92%;
         position: relative;
         overflow: hidden;
@@ -74,7 +74,7 @@
       
       .login-logo{
         display: block;
-        width: 120px;
+        width: 300px;
         height: auto;
         margin: 0 auto 20px;
         border-radius: 12px;
@@ -96,7 +96,7 @@
       }
       
       .loading-logo{
-        width: 200px;
+        width: 400px;
         height: auto;
         border-radius: 20px;
         margin-bottom: 30px;
@@ -106,7 +106,7 @@
       }
       
       .loading-text{
-        font-size: 24px;
+        font-size: 36px;
         font-weight: 700;
         color: white;
         opacity: 0;
@@ -280,7 +280,7 @@
 <body>
       <div id="loginOverlay">
         <div class="card">
-          <img src="assets/icons/monkey.jpg" alt="Logo" class="login-logo">
+          <img src="assets/icons/monkey.png" alt="Logo" class="login-logo">
           <h2>Mechanic's Best Friend</h2>
           <div class="field"><label>Username</label><input id="u" type="text" autocomplete="username"></div>
           <div class="field"><label>Password</label><input id="p" type="password" autocomplete="current-password"></div>
@@ -291,12 +291,12 @@
       
       <div id="loadingOverlay" style="display:none">
         <div class="loading-content">
-          <img src="assets/icons/monkey.jpg" alt="Logo" class="loading-logo">
+          <img src="assets/icons/monkey.png" alt="Logo" class="loading-logo">
           <div class="loading-text" id="loadingText">Thinking<span class="dots"></span></div>
         </div>
       </div>
       <header id="appHeader" style="display:none">
-        <img src="assets/icons/monkey.jpg" alt="Logo" style="width: 40px; height: auto; border-radius: 8px;">
+        <img src="assets/icons/monkey.png" alt="Logo" style="width: 200px; height: auto; border-radius: 8px;">
         Mechanic's Best Friend
       </header>
       <div class="container" id="appMain" style="display:none">
