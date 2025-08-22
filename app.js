@@ -1,4 +1,4 @@
-// Refresco Tempe - full login gate + auto file listing
+// Mechanic's Best Friend - full login gate + auto file listing
 const OWNER='brianlovegrove';
 const REPO='Refresco-Tempe';
 const BRANCH='main';
@@ -50,12 +50,12 @@ function render(){
   }
 
   const repoPath=nodeRepoPath();
-  if(repoPath){
+  if(repoPath && !(n.children && n.children.length)){
     const title=document.createElement('div'); title.className='sectionTitle'; title.textContent='Files'; $c.appendChild(title);
     const list=document.createElement('div'); list.className='list'; $c.appendChild(list);
     listFiles(repoPath).then(items=>{
       if(!items.length){ const p=document.createElement('p'); p.className='empty'; p.textContent='No files yet. Upload to '+repoPath+' in GitHub.'; $c.appendChild(p); return; }
-      items.forEach(it=>{ if(it.type==='file'){ const a=document.createElement('a'); a.className='item'; a.target='_blank'; a.rel='noopener'; a.href=rawUrl(repoPath+it.name); a.textContent=prettyName(it.name); list.appendChild(a); } });
+      items.forEach(it=>{ if(it.type==='file'){ const a=document.createElement('a'); a.className='item'; a.href='#'; a.onclick=(e)=>{ e.preventDefault(); openFile(rawUrl(repoPath+it.name); a.textContent=prettyName(it.name); list.appendChild(a); } });
     }).catch(err=>{ const p=document.createElement('p'); p.className='empty'; p.textContent='Folder not found yet: '+repoPath; $c.appendChild(p); console.error(err); });
   }
 }
@@ -70,3 +70,22 @@ function apiUrl(path){ const clean=path.replace(/^\/+|\/+$/g,''); return `https:
 function rawUrl(path){ const clean=path.replace(/^\/+/, ''); return `https://raw.githubusercontent.com/${OWNER}/${REPO}/${encodeURIComponent(BRANCH)}/${clean}`; }
 async function listFiles(path){ const res=await fetch(apiUrl(path), { headers:{ 'Accept':'application/vnd.github+json' } }); if(!res.ok) throw new Error('GitHub API '+res.status); const items=await res.json(); return Array.isArray(items)?items:[]; }
 function prettyName(filename){ const noExt=filename.replace(/\.[^.]+$/,''); return noExt.replace(/[_-]+/g,' ').replace(/\s+/g,' ').replace(/\b\w/g,c=>c.toUpperCase()); }
+
+
+function openFile(url, name){
+  const ext = (name.split('.').pop()||'').toLowerCase();
+  $c.innerHTML='';
+  const title=document.createElement('div'); title.className='sectionTitle'; title.textContent=name; $c.appendChild(title);
+  if(['png','jpg','jpeg','gif','webp','svg'].includes(ext)){
+    const img=new Image(); img.src=url; img.style.maxWidth='100%'; img.style.height='auto'; $c.appendChild(img);
+  } else if(ext==='pdf'){
+    const emb=document.createElement('embed'); emb.type='application/pdf'; emb.src=url; emb.style.width='100%'; emb.style.height='80vh'; $c.appendChild(emb);
+  } else if(['txt','log','json','md','csv','ini','cfg'].includes(ext)){
+    fetch(url).then(r=>r.text()).then(t=>{ const pre=document.createElement('pre'); pre.textContent=t; pre.style.whiteSpace='pre-wrap'; pre.style.wordBreak='break-word'; $c.appendChild(pre); });
+  } else if(['doc','docx','ppt','pptx','xls','xlsx'].includes(ext)){
+    const iframe=document.createElement('iframe'); iframe.src='https://docs.google.com/gview?embedded=1&url='+encodeURIComponent(url); iframe.style.width='100%'; iframe.style.height='80vh'; iframe.loading='lazy'; $c.appendChild(iframe);
+  } else {
+    const p=document.createElement('p'); p.textContent='Preview not supported. Download the file below:'; $c.appendChild(p);
+    const a=document.createElement('a'); a.href=url; a.textContent='Download '+name; a.className='item'; a.download=name; $c.appendChild(a);
+  }
+}
