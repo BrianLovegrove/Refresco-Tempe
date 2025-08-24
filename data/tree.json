@@ -5,237 +5,259 @@
       "name": "Line 2",
       "children": [
         {
-          "name": "Depal",
+          "name": "Depalletizer",
           "children": [
             {
-              "name": "Electrical Schematics"
+              "name": "Empty Can Pallet Conveyor Infeed",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "Machine Manual"
+              "name": "Empty Can Pallet Conveyor Discharge",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "Troubleshooting"
+              "name": "Sweep Off Unit",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "PM Procedures"
+              "name": "Material Handler",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Empty Can Line",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Filler",
+          "name": "Krones Contiflow Mixer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "PID"},
+            {"name": "HMI Navigation"},
+            {"name": "Heat Exchanger"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Krones Volumetric Filler",
+          "children": [
+            {"name": "HMI Navigation"},
+            {"name": "Filling Valve Documentation"},
+            {"name": "FVC Documentation"},
+            {"name": "Change Over Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Ferrum Seamer",
+          "children": [
+            {"name": "Change Over Documentation"},
+            {"name": "1st & 2nd Ops Adjustments"},
+            {"name": "Can Damage Troubleshooting"},
+            {"name": "Seamer Crash Troubleshooting"},
+            {"name": "Lid Feeder Documentation & Troubleshooting"},
+            {"name": "Tooling Documentation & Troubleshooting"},
+            {"name": "Timing Adjustments & Plug Documentation"},
+            {"name": "Spring Pressure Adjustments"},
+            {"name": "Lubrication & Lubrication Device Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Pasteurizer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "PID"},
+            {"name": "HMI Navigation"},
+            {"name": "Heat Curves & Charts"},
+            {"name": "Heat Exchanger"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Full Can Line",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Can Twists"},
+            {"name": "Can Coder's"},
+            {"name": "Can Rejectors"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Variopack",
+          "name": "Krones Variopack",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Heating Tunnel"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Full Case Line",
           "children": [
+            {"name": "Spiral Uphill / Risen"},
             {
-              "name": "Electrical Schematics"
+              "name": "VFD Full Case",
+              "children": [
+                {
+                  "name": "Powerflex 40",
+                  "children": [
+                    {"name": "Program values"},
+                    {"name": "Line Layout"},
+                    {"name": "Fault Codes"}
+                  ]
+                },
+                {
+                  "name": "Powerflex 525",
+                  "children": [
+                    {"name": "Program values"},
+                    {"name": "Line Layout"},
+                    {"name": "Fault Codes"}
+                  ]
+                }
+              ]
             },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Palletizer",
+          "name": "Modulpal Palletizer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "HMI Navigation"},
+            {"name": "Rehoming Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Full Pallet Conveyor / Wrapper",
+          "name": "Finished Product Pallet Wrapper",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Empty Pallet Stacker",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         }
       ]
@@ -244,237 +266,259 @@
       "name": "Line 3",
       "children": [
         {
-          "name": "Depal",
+          "name": "Depalletizer",
           "children": [
             {
-              "name": "Electrical Schematics"
+              "name": "Empty Can Pallet Conveyor Infeed",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "Machine Manual"
+              "name": "Empty Can Pallet Conveyor Discharge",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "Troubleshooting"
+              "name": "Sweep Off Unit",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "PM Procedures"
+              "name": "Material Handler",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Empty Can Line",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Filler",
+          "name": "Blenzer DSI Mixer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "PID"},
+            {"name": "HMI Navigation"},
+            {"name": "Heat Exchanger"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Crown Filler",
+          "children": [
+            {"name": "HMI Navigation"},
+            {"name": "Filling Valve Documentation"},
+            {"name": "FVC Documentation"},
+            {"name": "Change Over Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Bevcorp 120L Seamer",
+          "children": [
+            {"name": "Change Over Documentation"},
+            {"name": "1st & 2nd Ops Adjustments"},
+            {"name": "Can Damage Troubleshooting"},
+            {"name": "Seamer Crash Troubleshooting"},
+            {"name": "Lid Feeder Documentation & Troubleshooting"},
+            {"name": "Tooling Documentation & Troubleshooting"},
+            {"name": "Timing Adjustments & Plug Documentation"},
+            {"name": "Spring Pressure Adjustments"},
+            {"name": "Lubrication & Lubrication Device Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Pasteurizer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "PID"},
+            {"name": "HMI Navigation"},
+            {"name": "Heat Curves & Charts"},
+            {"name": "Heat Exchanger"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Full Can Line",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Can Twists"},
+            {"name": "Can Coder's"},
+            {"name": "Can Rejectors"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Douglas Packer",
+          "name": "Douglas Contour",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Heating Tunnel"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Full Case Line",
           "children": [
+            {"name": "Spiral Uphill / Risen"},
             {
-              "name": "Electrical Schematics"
+              "name": "VFD Full Case",
+              "children": [
+                {
+                  "name": "Powerflex 40",
+                  "children": [
+                    {"name": "Program values"},
+                    {"name": "Line Layout"},
+                    {"name": "Fault Codes"}
+                  ]
+                },
+                {
+                  "name": "Powerflex 525",
+                  "children": [
+                    {"name": "Program values"},
+                    {"name": "Line Layout"},
+                    {"name": "Fault Codes"}
+                  ]
+                }
+              ]
             },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Palletizer",
+          "name": "Modulpal Palletizer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "HMI Navigation"},
+            {"name": "Rehoming Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Full Pallet Conveyor / Wrapper",
+          "name": "Finished Product Pallet Wrapper",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Empty Pallet Stacker",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         }
       ]
@@ -483,237 +527,259 @@
       "name": "Line 4",
       "children": [
         {
-          "name": "Depal",
+          "name": "Depalletizer",
           "children": [
             {
-              "name": "Electrical Schematics"
+              "name": "Empty Can Pallet Conveyor Infeed",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "Machine Manual"
+              "name": "Empty Can Pallet Conveyor Discharge",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "Troubleshooting"
+              "name": "Sweep Off Unit",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
             {
-              "name": "PM Procedures"
+              "name": "Material Handler",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
             },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Empty Can Line",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Filler",
+          "name": "Krones Contiflow Mixer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "PID"},
+            {"name": "HMI Navigation"},
+            {"name": "Heat Exchanger"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Krones Volumetric Filler",
+          "children": [
+            {"name": "HMI Navigation"},
+            {"name": "Filling Valve Documentation"},
+            {"name": "FVC Documentation"},
+            {"name": "Change Over Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Angelus 12MH Seamer",
+          "children": [
+            {"name": "Change Over Documentation"},
+            {"name": "1st & 2nd Ops Adjustments"},
+            {"name": "Can Damage Troubleshooting"},
+            {"name": "Seamer Crash Troubleshooting"},
+            {"name": "Lid Feeder Documentation & Troubleshooting"},
+            {"name": "Tooling Documentation & Troubleshooting"},
+            {"name": "Timing Adjustments & Plug Documentation"},
+            {"name": "Spring Pressure Adjustments"},
+            {"name": "Lubrication & Lubrication Device Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Pasteurizer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "PID"},
+            {"name": "HMI Navigation"},
+            {"name": "Heat Curves & Charts"},
+            {"name": "Heat Exchanger"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Full Can Line",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Can Twists"},
+            {"name": "Can Coder's"},
+            {"name": "Can Rejectors"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Douglas Packer",
+          "name": "Douglas Contour",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Heating Tunnel"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
           "name": "Full Case Line",
           "children": [
+            {"name": "Spiral Uphill / Risen"},
             {
-              "name": "Electrical Schematics"
+              "name": "VFD Full Case",
+              "children": [
+                {
+                  "name": "Powerflex 40",
+                  "children": [
+                    {"name": "Program values"},
+                    {"name": "Line Layout"},
+                    {"name": "Fault Codes"}
+                  ]
+                },
+                {
+                  "name": "Powerflex 525",
+                  "children": [
+                    {"name": "Program values"},
+                    {"name": "Line Layout"},
+                    {"name": "Fault Codes"}
+                  ]
+                }
+              ]
             },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Palletizer",
+          "name": "Modulpal Palletizer",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "HMI Navigation"},
+            {"name": "Rehoming Documentation"},
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         },
         {
-          "name": "Full Pallet Conveyor / Wrapper",
+          "name": "Finished Product Pallet Wrapper",
           "children": [
-            {
-              "name": "Electrical Schematics"
-            },
-            {
-              "name": "Machine Manual"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "PM Procedures"
-            },
-            {
-              "name": "Recipes"
-            },
-            {
-              "name": "Adjustment Guide"
-            },
-            {
-              "name": "Mechanic Notes"
-            }
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Empty Pallet Stacker",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
           ]
         }
       ]
@@ -721,105 +787,53 @@
     {
       "name": "Steam Generator",
       "children": [
-        {
-          "name": "Electrical Schematics"
-        },
-        {
-          "name": "Machine Manual"
-        },
-        {
-          "name": "Troubleshooting"
-        },
-        {
-          "name": "PM Procedures"
-        },
-        {
-          "name": "Recipes"
-        },
-        {
-          "name": "Adjustment Guide"
-        },
-        {
-          "name": "Mechanic Notes"
-        }
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
       ]
     },
     {
       "name": "Batching",
       "children": [
-        {
-          "name": "Electrical Schematics"
-        },
-        {
-          "name": "Machine Manual"
-        },
-        {
-          "name": "Troubleshooting"
-        },
-        {
-          "name": "PM Procedures"
-        },
-        {
-          "name": "Recipes"
-        },
-        {
-          "name": "Adjustment Guide"
-        },
-        {
-          "name": "Mechanic Notes"
-        }
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
       ]
     },
     {
       "name": "Can Crusher",
       "children": [
-        {
-          "name": "Electrical Schematics"
-        },
-        {
-          "name": "Machine Manual"
-        },
-        {
-          "name": "Troubleshooting"
-        },
-        {
-          "name": "PM Procedures"
-        },
-        {
-          "name": "Recipes"
-        },
-        {
-          "name": "Adjustment Guide"
-        },
-        {
-          "name": "Mechanic Notes"
-        }
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
       ]
     },
     {
       "name": "RO System",
       "children": [
-        {
-          "name": "Electrical Schematics"
-        },
-        {
-          "name": "Machine Manual"
-        },
-        {
-          "name": "Troubleshooting"
-        },
-        {
-          "name": "PM Procedures"
-        },
-        {
-          "name": "Recipes"
-        },
-        {
-          "name": "Adjustment Guide"
-        },
-        {
-          "name": "Mechanic Notes"
-        }
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
       ]
     },
     {
@@ -828,37 +842,201 @@
         {
           "name": "Powerflex 40",
           "children": [
-            {
-              "name": "Manual"
-            },
-            {
-              "name": "Programming Guide"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "Fault Codes"
-            }
+            {"name": "Manual"},
+            {"name": "Programming Guide"},
+            {"name": "Troubleshooting"},
+            {"name": "Fault Codes"}
           ]
         },
         {
           "name": "Powerflex 525",
           "children": [
-            {
-              "name": "Manual"
-            },
-            {
-              "name": "Programming Guide"
-            },
-            {
-              "name": "Troubleshooting"
-            },
-            {
-              "name": "Fault Codes"
-            }
+            {"name": "Manual"},
+            {"name": "Programming Guide"},
+            {"name": "Troubleshooting"},
+            {"name": "Fault Codes"}
           ]
         }
+      ]
+    },
+    {
+      "name": "Air Compressor's",
+      "children": [
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
+      ]
+    },
+    {
+      "name": "CIP Skid's",
+      "children": [
+        {
+          "name": "Line 2 CIP Skid",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Line 3 CIP Skid",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Line 4 CIP Skid",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Air Handler's",
+      "children": [
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
+      ]
+    },
+    {
+      "name": "Chiller Small",
+      "children": [
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
+      ]
+    },
+    {
+      "name": "Chiller York 700 Ton",
+      "children": [
+        {"name": "Electrical Schematics"},
+        {"name": "Machine Diagrams / CAD Drawings"},
+        {"name": "Machine Manual"},
+        {"name": "Troubleshooting"},
+        {"name": "PM Procedures"},
+        {"name": "Recipes"},
+        {"name": "Adjustment Guide"},
+        {"name": "Mechanic Notes"}
+      ]
+    },
+    {
+      "name": "Accutek Bottomless Conveyor",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Micelanois Valves",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Phnematic Valves",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Blowers",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Aquafine UV",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Mass Flow Meters",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Leibinger JET 3 Labeler",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Video Jet",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Nordson ProBlue Glue Pot",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Nitrogen Doser",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Pumps etc",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Tuchenhagen Valves",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Strainers",
+      "children": [
+        {"name": "Documents"}
+      ]
+    },
+    {
+      "name": "Wulftec Wrapper",
+      "children": [
+        {"name": "Documents"}
       ]
     }
   ]
