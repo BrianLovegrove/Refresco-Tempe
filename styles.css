@@ -1,18 +1,18 @@
 :root { 
-  --primary: #2d3748; 
-  --primary-dark: #1a202c;
-  --secondary: #a0aec0; 
-  --accent: #4a5568;
-  --bg: #1a202c; 
+  --primary: #000000; 
+  --primary-dark: #000000;
+  --secondary: #666666; 
+  --accent: #000000;
+  --bg: #ffffff; 
   --surface: #ffffff;
-  --border: #cbd5e0;
-  --border-dark: #a0aec0;
-  --text: #2d3748; 
-  --text-light: #ffffff;
-  --nav-text: #ffffff;
-  --success: #68d391;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --border: #000000;
+  --border-dark: #000000;
+  --text: #000000; 
+  --text-light: #000000;
+  --nav-text: #000000;
+  --success: #000000;
+  --shadow: none;
+  --shadow-lg: none;
 }
 
 *{box-sizing:border-box;}
@@ -20,7 +20,7 @@
 html,body{
   margin:0;
   padding:0;
-  background: linear-gradient(135deg, #1a202c 0%, #000000 100%);
+  background: #ffffff;
   color: var(--nav-text);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   min-height: 100vh;
@@ -33,26 +33,26 @@ header{
   display:flex;
   align-items:center;
   gap:12px;
-  padding:18px 24px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-  color: #ffffff;
+  padding:12px 16px;
+  background: var(--bg);
+  color: var(--text);
   z-index:10;
-  box-shadow: var(--shadow-lg);
-  font-size: 28px;
-  font-weight: 800;
+  border-bottom: 1px solid var(--border);
+  font-size: 20px;
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
 
-h1{margin:0;font-size:28px;font-weight:900;color:#ffffff;}
+h1{margin:0;font-size:20px;font-weight:600;color:var(--text);}
 
 #backBtn{
   display:none;
-  border:2px solid var(--primary);
+  border:1px solid var(--primary);
   background: var(--surface);
   color: var(--primary);
   padding:12px 18px;
-  border-radius:8px;
-  font-weight:700;
+  border-radius:4px;
+  font-weight:600;
   font-size: 16px;
   cursor:pointer;
   transition: all 0.2s ease;
@@ -63,7 +63,7 @@ h1{margin:0;font-size:28px;font-weight:900;color:#ffffff;}
 
 #backBtn:hover{
   background: var(--primary);
-  color: #f7fafc;
+  color: #ffffff;
   transform: translateY(-1px);
   box-shadow: var(--shadow-lg);
 }
@@ -84,11 +84,10 @@ h1{margin:0;font-size:28px;font-weight:900;color:#ffffff;}
 }
 
 #breadcrumbs a:hover{
-  color: #cbd5e0;
   text-decoration: underline;
 }
 
-main{padding:26px;}
+main{padding:16px;}
 
 .list{
   display:grid;
@@ -100,10 +99,10 @@ main{padding:26px;}
 .item{
   display:block;
   text-align:left;
-  border:2px solid var(--border);
+  border:1px solid var(--border);
   background: var(--surface);
   color: var(--text);
-  border-radius:12px;
+  border-radius:8px;
   padding:18px 22px;
   font-weight:600;
   font-size: 17px;
@@ -121,16 +120,15 @@ main{padding:26px;}
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(74, 85, 104, 0.1), transparent);
+  background: transparent;
   transition: left 0.5s ease;
 }
 
 .item:hover{
-  background: var(--surface);
+  background: var(--primary);
   border-color: var(--primary);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
-  color: var(--primary);
+  color: #ffffff;
 }
 
 .item:hover::before {
@@ -141,7 +139,7 @@ main{padding:26px;}
   margin: 26px 0 18px 0;
   font-size: 18px;
   color: var(--nav-text);
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   display: flex;
@@ -163,8 +161,8 @@ main{padding:26px;}
   margin: 26px 0;
   padding: 22px;
   background: var(--surface);
-  border: 2px dashed var(--border);
-  border-radius: 12px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
   text-align: center;
   font-size: 16px;
 }
