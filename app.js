@@ -30,14 +30,8 @@ async function showLoadingAnimation() {
   $overlay.style.display='none';
   $loadingOverlay.style.display='flex';
   
-  // Phase 1: "Thinking..." for 1.5 seconds
-  await showLoadingPhase('Thinking', 1500);
-  
-  // Phase 2: "What Would Herman Do?" for 1.5 seconds  
-  await showLoadingPhase('What Would Herman Do?', 1500);
-  
-  // Phase 3: "Enjoy" for 1 second
-  await showLoadingPhase('Enjoy', 1000);
+  // Simple "Thinking..." for 1 second
+  await showLoadingPhase('Thinking', 1000);
   
   // Show main app
   showApp();
