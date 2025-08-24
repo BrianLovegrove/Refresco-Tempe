@@ -901,6 +901,38 @@
           "children": [
             {"name": "Documents"}
           ]
+        },
+        {
+          "name": "Can Crusher",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Air Handler's",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Wulftec Wrapper",
+          "children": [
+            {"name": "Documents"}
+          ]
         }
       ]
     },
@@ -965,88 +997,56 @@
           "children": [
             {"name": "Documents"}
           ]
+        },
+        {
+          "name": "Chiller Small",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Accutek Bottomless Conveyor",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Aquafine UV",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Leibinger JET 3 Labeler",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Video Jet",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Nordson ProBlue Glue Pot",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Strainers",
+          "children": [
+            {"name": "Documents"}
+          ]
         }
-      ]
-    },
-    {
-      "name": "Can Crusher",
-      "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
-      ]
-    },
-    {
-      "name": "Air Handler's",
-      "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
-      ]
-    },
-    {
-      "name": "Chiller Small",
-      "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
-      ]
-    },
-    {
-      "name": "Accutek Bottomless Conveyor",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Aquafine UV",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Leibinger JET 3 Labeler",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Video Jet",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Nordson ProBlue Glue Pot",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Strainers",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Wulftec Wrapper",
-      "children": [
-        {"name": "Documents"}
       ]
     }
   ]
