@@ -785,29 +785,187 @@
       ]
     },
     {
-      "name": "Steam Generator",
+      "name": "Other Systems",
       "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
+        {
+          "name": "Steam Generator",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Batching",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "RO System",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Air Compressor's",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "CIP Skid's",
+          "children": [
+            {
+              "name": "Line 2 CIP Skid",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
+            },
+            {
+              "name": "Line 3 CIP Skid",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
+            },
+            {
+              "name": "Line 4 CIP Skid",
+              "children": [
+                {"name": "Electrical Schematics"},
+                {"name": "Machine Diagrams / CAD Drawings"},
+                {"name": "Machine Manual"},
+                {"name": "Troubleshooting"},
+                {"name": "PM Procedures"},
+                {"name": "Recipes"},
+                {"name": "Adjustment Guide"},
+                {"name": "Mechanic Notes"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chiller York 700 Ton",
+          "children": [
+            {"name": "Electrical Schematics"},
+            {"name": "Machine Diagrams / CAD Drawings"},
+            {"name": "Machine Manual"},
+            {"name": "Troubleshooting"},
+            {"name": "PM Procedures"},
+            {"name": "Recipes"},
+            {"name": "Adjustment Guide"},
+            {"name": "Mechanic Notes"}
+          ]
+        },
+        {
+          "name": "Nitrogen Doser",
+          "children": [
+            {"name": "Documents"}
+          ]
+        }
       ]
     },
     {
-      "name": "Batching",
+      "name": "Equipment",
       "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
+        {
+          "name": "VFD",
+          "children": [
+            {
+              "name": "Powerflex 40",
+              "children": [
+                {"name": "Manual"},
+                {"name": "Programming Guide"},
+                {"name": "Troubleshooting"},
+                {"name": "Fault Codes"}
+              ]
+            },
+            {
+              "name": "Powerflex 525",
+              "children": [
+                {"name": "Manual"},
+                {"name": "Programming Guide"},
+                {"name": "Troubleshooting"},
+                {"name": "Fault Codes"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pneumatic Valves",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Miscellaneous Valves",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Pumps etc",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Blowers",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Mass Flow Meters",
+          "children": [
+            {"name": "Documents"}
+          ]
+        },
+        {
+          "name": "Tuchenhagen Valves",
+          "children": [
+            {"name": "Documents"}
+          ]
+        }
       ]
     },
     {
@@ -821,99 +979,6 @@
         {"name": "Recipes"},
         {"name": "Adjustment Guide"},
         {"name": "Mechanic Notes"}
-      ]
-    },
-    {
-      "name": "RO System",
-      "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
-      ]
-    },
-    {
-      "name": "VFD",
-      "children": [
-        {
-          "name": "Powerflex 40",
-          "children": [
-            {"name": "Manual"},
-            {"name": "Programming Guide"},
-            {"name": "Troubleshooting"},
-            {"name": "Fault Codes"}
-          ]
-        },
-        {
-          "name": "Powerflex 525",
-          "children": [
-            {"name": "Manual"},
-            {"name": "Programming Guide"},
-            {"name": "Troubleshooting"},
-            {"name": "Fault Codes"}
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Air Compressor's",
-      "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
-      ]
-    },
-    {
-      "name": "CIP Skid's",
-      "children": [
-        {
-          "name": "Line 2 CIP Skid",
-          "children": [
-            {"name": "Electrical Schematics"},
-            {"name": "Machine Diagrams / CAD Drawings"},
-            {"name": "Machine Manual"},
-            {"name": "Troubleshooting"},
-            {"name": "PM Procedures"},
-            {"name": "Recipes"},
-            {"name": "Adjustment Guide"},
-            {"name": "Mechanic Notes"}
-          ]
-        },
-        {
-          "name": "Line 3 CIP Skid",
-          "children": [
-            {"name": "Electrical Schematics"},
-            {"name": "Machine Diagrams / CAD Drawings"},
-            {"name": "Machine Manual"},
-            {"name": "Troubleshooting"},
-            {"name": "PM Procedures"},
-            {"name": "Recipes"},
-            {"name": "Adjustment Guide"},
-            {"name": "Mechanic Notes"}
-          ]
-        },
-        {
-          "name": "Line 4 CIP Skid",
-          "children": [
-            {"name": "Electrical Schematics"},
-            {"name": "Machine Diagrams / CAD Drawings"},
-            {"name": "Machine Manual"},
-            {"name": "Troubleshooting"},
-            {"name": "PM Procedures"},
-            {"name": "Recipes"},
-            {"name": "Adjustment Guide"},
-            {"name": "Mechanic Notes"}
-          ]
-        }
       ]
     },
     {
@@ -943,50 +1008,13 @@
       ]
     },
     {
-      "name": "Chiller York 700 Ton",
-      "children": [
-        {"name": "Electrical Schematics"},
-        {"name": "Machine Diagrams / CAD Drawings"},
-        {"name": "Machine Manual"},
-        {"name": "Troubleshooting"},
-        {"name": "PM Procedures"},
-        {"name": "Recipes"},
-        {"name": "Adjustment Guide"},
-        {"name": "Mechanic Notes"}
-      ]
-    },
-    {
       "name": "Accutek Bottomless Conveyor",
       "children": [
         {"name": "Documents"}
       ]
     },
     {
-      "name": "Micelanois Valves",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Phnematic Valves",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Blowers",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
       "name": "Aquafine UV",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Mass Flow Meters",
       "children": [
         {"name": "Documents"}
       ]
@@ -1005,24 +1033,6 @@
     },
     {
       "name": "Nordson ProBlue Glue Pot",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Nitrogen Doser",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Pumps etc",
-      "children": [
-        {"name": "Documents"}
-      ]
-    },
-    {
-      "name": "Tuchenhagen Valves",
       "children": [
         {"name": "Documents"}
       ]
