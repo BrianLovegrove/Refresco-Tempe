@@ -74,7 +74,18 @@ function render(){
 
   if(n.children && n.children.length){
     const list=document.createElement('div'); list.className='list';
-    n.children.forEach((ch,i)=>{ const b=document.createElement('button'); b.className='item'; b.textContent=ch.name; b.onclick=()=>{ stack.push(i); render(); }; list.appendChild(b); });
+    n.children.forEach((ch,i)=>{ 
+      const b=document.createElement('button'); 
+      b.className='item'; 
+      // Add item count if this item has children
+      if(ch.children && ch.children.length) {
+        b.innerHTML = `${ch.name} <span style="font-size:0.8em;color:#666;margin-left:8px;">| ${ch.children.length} items</span>`;
+      } else {
+        b.textContent = ch.name;
+      }
+      b.onclick=()=>{ stack.push(i); render(); }; 
+      list.appendChild(b); 
+    });
     $c.appendChild(list);
   }
 
